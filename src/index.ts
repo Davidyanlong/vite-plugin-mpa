@@ -63,7 +63,7 @@ export default function mpa(userOptions: UserOptions = {}): Plugin {
       // 3. move src/pages/* to dest root
       shell.mv(resolve(`${dest}/${options.scanDir}/*`), resolve(dest))
       // 4. remove empty src dir
-      shell.rm('-rf', resolve(`${dest}/src`))
+      shell.rm('-rf', resolve(`${dest}/${options.scanDir}`))
     },
   }
 }
