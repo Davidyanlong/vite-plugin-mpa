@@ -1,6 +1,6 @@
 {
-  "name": "@future-image/vite-plugin-mpa",
-  "version": "1.0.1",
+  "name": "@futureimage/vite-plugin-mpa",
+  "version": "1.0.2",
   "description": "MPA for vite",
   "module": "dist/index.mjs",
   "main": "dist/index.js",

@@ -5124,7 +5124,7 @@ function getHistoryReWriteRuleList(options) {
 }
 
 // package.json
-var name = "vite-plugin-mpa";
+var name = "@futureimage/vite-plugin-mpa";
 
 // src/index.ts
 function mpa(userOptions = {}) {
